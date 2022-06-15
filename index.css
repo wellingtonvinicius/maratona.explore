@@ -1,0 +1,83 @@
+*{
+  margin: 0; 
+  padding: 0;
+   box-sizing: border-box;
+ }
+
+
+body{
+    background-color: aqua;
+    background-image: url(./assets/milky-way.jpg) ;
+    background-position: center  ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    color: goldenrod ;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    }
+
+ 
+#container{
+margin-top: 8px;
+width: 50%;
+  max-width: 320px;
+  margin-inline: auto;
+
+}
+
+#container img {
+  width: 100%;
+  }
+
+h1 {
+margin-top: 10px;
+margin-bottom: 10px;
+opacity: 0.6;
+}
+
+p {
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+input, button{
+  display: block;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input{
+  margin-bottom: 20px;
+}
+
+button{
+  border: none;
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  transition: filter .2s ;
+  
+
+}
+button:hover{
+  filter: brightness(1.2);
+  cursor: grab;
+
+
+}
+#resposta {
+  margin-top: 10px;
+  transition: opacity 1s ;
+
+
+}
+
+#reposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
